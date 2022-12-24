@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jquery</title>
+  <link rel="stylesheet" href="jquery.css">
+</head>
+<body>
+ 
+  <div class="alert-box" id="ab1">
+    첫번째 박스 <button onclick="showHide('ab1','none')">x</button>
+  </div>
+  <div class="alert-box" id="ab2">
+    두번째 박스 <button onclick="showHide('ab2','none')">x</button>
+  </div>
+  <div class="alert-box" id="ab3">
+    세번째 박스 <button onclick="showHide('ab3','none')">x</button>
+  </div>
+  
+  <button onclick="showHide('ab1','block')">알림창1 표시</button>
+  <button onclick="showHide('ab2','block')">알림창2 표시</button>
+  <button onclick="showHide('ab3','block')">알림창3 표시</button>
+
+  <div class="box">
+    보였다 안보였다 
+  </div>
+  <br>
+  <button onclick="onOff()">on/off</button>
+
+<script src="https://code.jquery.com/jquery-3.6.3.min.js" integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU=" crossorigin="anonymous"></script>
+<script src="jquery.js"></script>
+</body>
+</html>
